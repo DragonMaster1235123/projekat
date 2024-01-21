@@ -1,0 +1,130 @@
+h1 {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 250%;
+  text-shadow: 2px 2px #ff0000;
+  color: blue;
+  text-align: center;
+}
+
+p {
+  font-family: 'Archivo Black', sans-serif;
+  text-shadow: 2px 2px black;
+  font-size: 200%;
+  color: blue;
+  text-align: center;
+
+}
+
+ul {
+  float: right;
+  width: 25%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #444;
+  text-align: center;
+}
+
+li {
+  font-size: 200%;
+  display: inline;
+  color: grey;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-style: solid;
+  border-color: gray;
+  background-color: white; 
+}
+
+a:link {
+  color: #FF0000;
+}
+
+a:visited {
+  color: #00FF00;
+}
+a:hover {
+  color: #FF00FF;
+}
+a:active {
+  color: #0000FF;
+}
+
+.prva {
+background-image: url("../images/prva.jpg");
+background-color: #cccccc;
+height: 600px; 
+background-position: center; 
+background-repeat: no-repeat; 
+background-size: cover; 
+}
+
+.rase {
+  margin: 15px 15px 15px 15px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 5px;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  float: left;
+}
+.psi{
+  text-align: left;
+}
+
+.dogs{
+background-color: green;
+}
+
+.cats{
+background-color: green;
+}
+
+.macke{
+  margin: 15px 15px 15px 15px;
+  border: 1px solid #ddd;
+  border-radius: 20%;
+  padding: 5px;
+  width: 350px;
+  max-width: 100%;
+  height: auto;
+  float: right;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+.forma{
+  background-color: green;
+}
